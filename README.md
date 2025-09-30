@@ -50,7 +50,7 @@ For detailed deployment steps, refer to the [getting started guide](https://aws-
 Deploy the sample pods to test encrypted connectivity:
 
 ```bash
-kubectl apply -f example.yaml
+kubectl apply -f wireguard-blog-demo.yaml
 ```
 
 ### 2. Verify Cilium Wireguard Status
