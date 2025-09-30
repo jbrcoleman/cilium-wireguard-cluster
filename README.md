@@ -23,7 +23,7 @@ This setup provides transparent encryption of pod-to-pod traffic using Wireguard
 ### Infrastructure Files
 
 - **`eks.tf`** - Contains the EKS cluster configuration and Cilium deployment
-- **`example.yaml`** - Sample application for demonstrating encrypted connectivity (optional)
+- **`wireguard-blog-demo.yaml`** - Sample application for demonstrating encrypted connectivity (optional)
 
 ### Architecture Highlights
 
