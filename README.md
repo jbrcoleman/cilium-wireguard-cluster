@@ -85,7 +85,7 @@ apt-get update && apt-get install -y tcpdump
 Start packet capture on the Wireguard interface:
 
 ```bash
-tcpdump -n -i cilium_wg0
+tcpdump -A -c 40 -i cilium_wg0 | grep "Welcome to nginx!"
 ```
 
 You should see clear text in the output, which confirms the traffic is encrypted by Wireguard (the unencrypted payload is only visible inside the Wireguard interface).

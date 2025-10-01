@@ -84,7 +84,7 @@ module "eks_blueprints_addons" {
           cni:
             chainingMode: aws-cni
           enableIPv4Masquerade: false
-          tunnel: disabled
+          routingMode: native
           endpointRoutes:
             enabled: true
           l7Proxy: false
